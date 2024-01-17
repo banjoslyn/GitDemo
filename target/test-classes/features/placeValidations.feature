@@ -16,10 +16,10 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
-@tag
+#@tag
 Feature: Validating Place APIs
 
-  @AddPlace @Regression
+  @AddPlaceGit @RegressionGit
   Scenario Outline: Verify if Place is being Successfully added using AddPlaceAPI
     Given Add Place Payload with "<name>" "<language>" "<address>"
     When user calls "AddPlaceAPI" with "POST" http request
@@ -31,10 +31,10 @@ Feature: Validating Place APIs
    Examples:
      | name  | language | address  |
 #     | HURLEY TENNIS CLUB5555 |     Japanese | 5555, Shepherds Lane, Hurley |
-     | HURLEY TENNIS CLUB8888 |     English | 8888, Shepherds Lane, Hurley |
+     | HURLEY TENNIS CLUB9999 |     English | 9999, Shepherds Lane, Hurley |
        		
 
-	@DeletePlace @Regression
+	@DeletePlaceGit @RegressionGit
 	Scenario: Verify if Delete Place functionality is working
 		Given DeletePlace Payload
     When user calls "deletePlaceAPI" with "POST" http request

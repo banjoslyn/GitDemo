@@ -12,9 +12,9 @@ Multiparts:		<none>
 Body:
 {
     "accuracy": 50,
-    "name": "HURLEY TENNIS CLUB8888",
+    "name": "HURLEY TENNIS CLUB9999",
     "phone_number": "(+44) 444 444 3333",
-    "address": "8888, Shepherds Lane, Hurley",
+    "address": "9999, Shepherds Lane, Hurley",
     "website": "http://rahulshettyacademy.com",
     "language": "English",
     "location": {
@@ -27,7 +27,7 @@ Body:
     ]
 }
 HTTP/1.1 200 OK
-Date: Mon, 15 Jan 2024 14:18:03 GMT
+Date: Wed, 17 Jan 2024 17:19:58 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -40,17 +40,17 @@ Content-Type: application/json;charset=UTF-8
 
 {
     "status": "OK",
-    "place_id": "cffdbe2cbf23def16adbc17ded6cd0e4",
+    "place_id": "9c912312375f899ccabc649eef849d79",
     "scope": "APP",
-    "reference": "53b1df52f5ed48e2886d89072eaf657753b1df52f5ed48e2886d89072eaf6577",
-    "id": "53b1df52f5ed48e2886d89072eaf6577"
+    "reference": "0182076112211173ce7cba6b39f2e8f80182076112211173ce7cba6b39f2e8f8",
+    "id": "0182076112211173ce7cba6b39f2e8f8"
 }
 Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=cffdbe2cbf23def16adbc17ded6cd0e4
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=9c912312375f899ccabc649eef849d79
 Proxy:			<none>
 Request params:	<none>
 Query params:	key=qaclick123
-				place_id=cffdbe2cbf23def16adbc17ded6cd0e4
+				place_id=9c912312375f899ccabc649eef849d79
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -59,7 +59,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Mon, 15 Jan 2024 14:18:04 GMT
+Date: Wed, 17 Jan 2024 17:19:59 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -76,9 +76,9 @@ Content-Type: application/json;charset=UTF-8
         "longitude": "-0.81500068143801"
     },
     "accuracy": "50",
-    "name": "HURLEY TENNIS CLUB8888",
+    "name": "HURLEY TENNIS CLUB9999",
     "phone_number": "(+44) 444 444 3333",
-    "address": "8888, Shepherds Lane, Hurley",
+    "address": "9999, Shepherds Lane, Hurley",
     "types": "Tennis Racket,Shop",
     "website": "http://rahulshettyacademy.com",
     "language": "English"
@@ -96,10 +96,10 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "place_id": "cffdbe2cbf23def16adbc17ded6cd0e4"
+    "place_id": "9c912312375f899ccabc649eef849d79"
 }
 HTTP/1.1 200 OK
-Date: Mon, 15 Jan 2024 14:18:05 GMT
+Date: Wed, 17 Jan 2024 17:20:00 GMT
 Server: Apache/2.4.52 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
